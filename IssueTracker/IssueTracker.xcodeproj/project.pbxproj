@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E204DC28C8CBD500CB3AFA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E204DB28C8CBD500CB3AFA /* Extensions.swift */; };
 		30FB8EE128C8C2F00064C41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB8EE028C8C2F00064C41D /* AppDelegate.swift */; };
 		30FB8EE328C8C2F00064C41D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB8EE228C8C2F00064C41D /* SceneDelegate.swift */; };
 		30FB8EE528C8C2F00064C41D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB8EE428C8C2F00064C41D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30E204DB28C8CBD500CB3AFA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		30FB8EDD28C8C2F00064C41D /* IssueTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IssueTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FB8EE028C8C2F00064C41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FB8EE228C8C2F00064C41D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E204DA28C8CBC700CB3AFA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30E204DB28C8CBD500CB3AFA /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		30FB8ED428C8C2F00064C41D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		30FB8EDF28C8C2F00064C41D /* IssueTracker */ = {
 			isa = PBXGroup;
 			children = (
+				30E204DA28C8CBC700CB3AFA /* Helpers */,
 				30FB8EE028C8C2F00064C41D /* AppDelegate.swift */,
 				30FB8EE228C8C2F00064C41D /* SceneDelegate.swift */,
 				30FB8EE428C8C2F00064C41D /* ViewController.swift */,
@@ -261,6 +272,7 @@
 				30FB8EE528C8C2F00064C41D /* ViewController.swift in Sources */,
 				30FB8EE128C8C2F00064C41D /* AppDelegate.swift in Sources */,
 				30FB8EE328C8C2F00064C41D /* SceneDelegate.swift in Sources */,
+				30E204DC28C8CBD500CB3AFA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
