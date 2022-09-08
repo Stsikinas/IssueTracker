@@ -2,7 +2,7 @@
 //  IssueTrackerTests.swift
 //  IssueTrackerTests
 //
-//  Created by Epsilon User on 7/9/22.
+//  Created by Stavros Tsikinas on 7/9/22.
 //
 
 import XCTest

@@ -20,3 +20,13 @@ extension UIColor {
     }
     
 }
+
+// UIViewController
+extension UIViewController {
+    func createNavigation(with title: String? = "Title") {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.title = title
+        navigationItem.largeTitleDisplayMode = .always
+        
+    }
+}
